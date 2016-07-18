@@ -48,7 +48,6 @@ var AllowCreate = React.createClass({
 				<Select
 					allowCreate={this.props.allowCreate}
 					value={this.state.value}
-					multi
 					placeholder="Select your favourite(s)"
 					options={this.state.options}
 					onChange={this.handleSelectChange}
